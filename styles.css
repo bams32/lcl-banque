@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo , .pass{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.logo p , .pass{
+    color: rgb(6, 6, 150);
+    font-size: 12px;
+    font-weight: 800;
+    /* margin-bottom: 30px; */
+}
+
+.logo h1, .pass {
+    color: rgb(6, 6, 150);
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+#identifiant {
+
+    border: none;
+    border-style: dashed;
+    outline: none;
+    width: 80%;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+
+.memoire {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 40px; */
+
+}
+
+.memoire P {
+    color: #777;
+    margin-top: 25px;
+    margin-right: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#continuer {
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #777;
+    color: white;
+    padding: 15px 40px;
+}
+
+#continuer {
+    color: white;
+    margin-bottom: 30px;
+}
+#continuer:hover {
+    background-color:  rgb(6, 6, 150);
+}
+
+.lien {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#bouton, #perso  {
+   color:rgb(6, 6, 150) ;
+   font-size: 17px;
+}
+
+#continue {
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(6, 6, 150);
+    color: white;
+    padding: 1em;
+    margin-top: 2rem;
+   
+}
+
+.pass h1 {
+    margin-top: 30px;
+}
+
+
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1350px){
+    .contener {
+        width: 100%;
+    }
+
+    .banniere{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #continue {
+        text-decoration: none;
+        border-radius: 30px;
+        background-color: rgb(6, 6, 150);
+        color: white;
+        padding: 7px;
+        margin-top: 2rem;
+       
+    }
+    #continuer {
+        text-decoration: none;
+        border-radius: 30px;
+        background-color: #777;
+        color: white;
+        padding: 10px 30px;
+    }
+
+}
